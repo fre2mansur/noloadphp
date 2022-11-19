@@ -7,7 +7,7 @@ function processAjaxData(response, urlPath){
      	window.history.pushState("","", urlPath);
      }
  	}
-
+ 
 	function noload_route(route) {
 		if(!route) {
 			route = 'home';
