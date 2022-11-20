@@ -11,4 +11,5 @@
         <li class="nav-item"><?php noload_nav('about'); ?></li>
       </ul>
     </header>
+    <?php echo show_flash(); ?>
   </div>
