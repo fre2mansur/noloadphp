@@ -8,6 +8,8 @@ predefined ajax will take care for you. all you need to do is to create route an
 Create your new pages in to the /pages/ directory
 open /route.php assign route and include the page you created 
 
+Demo: https://noloadphp.frinhost.com/
+
 ```
 case 'contact':
  include_once('pages/contact.php');
