@@ -1,14 +1,14 @@
 # noloadphp
-No load php will help you to create php web aplication by without loading the pages like vue, react.
+No load php will help you to create php web application by without loading the pages like vue, react.
 
 predefined ajax will take care for you. all you need to do is to create route and php pages.
+
+Demo: https://noloadphp.frinhost.com/
 
 ## How to create route and pages?
 
 Create your new pages in to the /pages/ directory
 open /route.php assign route and include the page you created 
-
-Demo: https://noloadphp.frinhost.com/
 
 ```
 case 'contact':
@@ -31,7 +31,7 @@ Create your nave in your header or anywere that you want to click to load the vi
  
  create your action file in /actions/contact.php
  
- opent he /actions.php set the case and include the file you created
+ open the /actions.php set the case and include the file you created
  
  ```
  case 'contact':
